@@ -17,65 +17,86 @@
     <nav class="navbar">
         <div class="logo">Sanjay Raja</div>
         <ul class="nav-links">
-            <li><a href="https://github.com/sanju-bot" target="_blank">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/sanjay-raja-0aaa2429a" target="_blank">LinkedIn</a></li>
-            <li><a href="mailto:srisanjayraja3@gmail.com" target="_blank">Email</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
         </ul>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero">
-
+    <section class="hero" id="home">
         <div class="hero-left">
-            <img src="sanjay.png" alt="Sanjay Raja" class="profile-img">
+            <img src="Sanjay.jpeg" alt="Sanjay Raja" class="profile-img">
         </div>
 
         <div class="hero-right">
-            <h1>Hello 👋</h1>
-            <h2>I’m Sanjay Raja</h2>
-            <p>
-                Aspiring Data Scientist passionate about SQL, Python, 
-                Machine Learning, and building real-world projects.
-                Currently mastering databases and analytics while 
-                developing strong problem-solving skills.
+            <h1>Hi</h1>
+            <p class="hero-description">
+                I'm a student at VIT Bangalore Business School studying to get an MBA in Digital Marketing and Artificial Intelligence. I elevated my knowledge in Business and French. I worked in Telmatics Industries as a Sales and Marketing Executive. Most recently I worked at Amazon as a Transactions Executive. I moved to America in 2021. I returned to France towards the end of 2023 to study. I have experience in Sales, website design, content creation, and communications. I am an highly analytical and driven person who is objective-oriented and industrious. I enjoy reading personal development books, going to the gym, playing volleyball and soccer, and watching TV in my free time.
             </p>
+            <button class="btn-download" onclick="window.open('Sanjay resume 1.pdf', '_blank')">📄 View Resume</button>
+        </div>
+    </section>
 
-            <div class="buttons">
-                <a href="https://github.com/sanju-bot" target="_blank" class="btn">View Projects</a>
-                <a href="mailto:srisanjayraja3@gmail.com" class="btn-outline">Contact Me</a>
+    <!-- Cards Section -->
+    <section class="cards-section" id="skills">
+        <div class="cards-grid">
+            
+            <div class="card card-black">
+                <div class="card-icon">💻</div>
+                <h3>Programming Languages</h3>
+                <p><strong>C</strong> • <strong>Python</strong> • <strong>Java</strong></p>
+                <p style="font-size: 13px; opacity: 0.8;">Core programming expertise with multiple languages for full-stack development</p>
+            </div>
+
+            <div class="card card-gray">
+                <div class="card-icon">🌐</div>
+                <h3>Web Development</h3>
+                <p><strong>HTML</strong> • <strong>CSS</strong> • <strong>JavaScript</strong></p>
+                <p style="font-size: 13px; opacity: 0.8;">Building responsive and interactive web interfaces</p>
+            </div>
+
+            <div class="card card-white">
+                <div class="card-icon">🗂️</div>
+                <h3>Database & SQL</h3>
+                <p><strong>SQL</strong> • <strong>MongoDB</strong></p>
+                <p style="font-size: 13px; opacity: 0.8;">Database design and efficient data management</p>
+            </div>
+
+            <div class="card card-green">
+                <div class="card-icon">📤</div>
+                <h3>Tools & Version Control</h3>
+                <p><strong>Git</strong> • <strong>Windows</strong></p>
+                <p style="font-size: 13px; opacity: 0.8;">Version control and development environment management</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="projects-container">
+            <h2>My Projects</h2>
+            <p class="projects-subtitle">Check out all my repositories and projects on GitHub</p>
+            <div class="projects-cta">
+                <a href="https://github.com/sanju-bot" target="_blank" class="btn-github">🚀 View All Projects on GitHub</a>
             </div>
         </div>
-
     </section>
 
-    <!-- Skills Section -->
-    <section class="cards">
-
-        <div class="card card-black">
-            <div class="card-icon">💻</div>
-            <h3>Frontend Development</h3>
-            <p>Building responsive and interactive web interfaces with HTML, CSS, and JavaScript for seamless user experiences.</p>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/sanju-bot" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/sanjay-raja-0aaa2429a" target="_blank">LinkedIn</a>
+                <a href="mailto:srisanjayraja3@gmail.com">Email</a>
+            </div>
         </div>
-
-        <div class="card card-gray">
-            <div class="card-icon">🗂️</div>
-            <h3>Database & SQL</h3>
-            <p>Strong foundation in database design, queries, joins, aggregations, and efficient data extraction.</p>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Sanjay Raja | Information Science Engineer</p>
         </div>
-
-        <div class="card card-pink">
-            <div class="card-icon">💬</div>
-            <h3>Data Analysis</h3>
-            <p>Exploratory Data Analysis, data visualization, and insight generation using Python and analytics tools.</p>
-        </div>
-
-        <div class="card card-green">
-            <div class="card-icon">🚀</div>
-            <h3>Machine Learning</h3>
-            <p>Building ML models, predictive analytics, and automation solutions to solve real-world problems.</p>
-        </div>
-
-    </section>
+    </footer>
 
 </body>
 </html>
