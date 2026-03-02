@@ -415,17 +415,24 @@ body {
 
 @media (max-width: 768px) {
     .navbar {
-        padding: 15px 30px;
+        padding: 15px 20px;
         flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .logo {
+        font-size: 18px;
     }
     
     .nav-links {
-        gap: 15px;
+        gap: 12px;
         font-size: 13px;
+        flex: 1 1 100%;
+        justify-content: flex-start;
     }
     
     .hero {
-        padding: 40px 30px;
+        padding: 30px 20px;
         gap: 20px;
         flex-direction: column;
         align-items: center;
@@ -436,74 +443,213 @@ body {
     }
     
     .profile-img {
-        width: 240px;
-        height: 300px;
+        width: 200px;
+        height: 260px;
     }
     
     .hero-right {
         max-width: 100%;
         text-align: center;
+        min-width: auto;
     }
     
     .hero-right h1 {
-        font-size: 36px;
+        font-size: 32px;
+        margin-bottom: 15px;
     }
     
     .hero-description {
-        font-size: 14px;
+        font-size: 13px;
         line-height: 1.6;
+        margin-bottom: 20px;
+    }
+    
+    .btn-download {
+        padding: 12px 28px;
+        font-size: 13px;
     }
     
     .cards-section {
-        padding: 30px 20px;
+        padding: 25px 15px;
     }
     
     .cards-grid {
-        gap: 15px;
+        gap: 12px;
+        grid-template-columns: repeat(2, 1fr);
     }
     
     .card {
-        padding: 30px 20px;
+        padding: 20px 15px;
+        min-height: 220px;
+    }
+    
+    .card-icon {
+        font-size: 32px;
+    }
+    
+    .card h3 {
+        font-size: 14px;
+    }
+    
+    .card p {
+        font-size: 12px;
     }
     
     .projects {
-        padding: 60px 30px;
+        padding: 40px 20px;
+    }
+    
+    .projects h2 {
+        font-size: 24px;
+    }
+    
+    .btn-github {
+        padding: 12px 24px;
+        font-size: 13px;
+    }
+    
+    .footer {
+        padding: 30px 20px;
+    }
+    
+    .social-links {
+        gap: 15px;
+        font-size: 13px;
     }
 }
 
 @media (max-width: 480px) {
     .navbar {
-        padding: 12px 15px;
+        padding: 10px 12px;
+    }
+    
+    .logo {
+        font-size: 16px;
     }
     
     .nav-links {
-        gap: 10px;
+        gap: 8px;
         font-size: 11px;
+        justify-content: flex-start;
     }
     
     .hero {
-        padding: 20px 15px;
+        padding: 15px 12px;
+        gap: 15px;
     }
     
     .profile-img {
-        width: 200px;
-        height: 250px;
+        width: 160px;
+        height: 210px;
+        border-radius: 8px;
     }
     
     .hero-right h1 {
-        font-size: 28px;
+        font-size: 24px;
+        margin-bottom: 12px;
     }
     
     .hero-description {
-        font-size: 13px;
+        font-size: 12px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+    
+    .btn-download {
+        padding: 10px 24px;
+        font-size: 12px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .cards-section {
+        padding: 20px 12px;
     }
     
     .cards-grid {
         grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    .card {
+        padding: 18px 12px;
+        min-height: auto;
+    }
+    
+    .card-icon {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+    
+    .card h3 {
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+    
+    .card p {
+        font-size: 11px;
+    }
+    
+    .projects {
+        padding: 30px 12px;
+    }
+    
+    .projects h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .projects-subtitle {
+        font-size: 12px;
     }
     
     .btn-github {
-        padding: 12px 30px;
+        padding: 11px 20px;
+        font-size: 12px;
+    }
+    
+    .footer {
+        padding: 20px 12px;
+    }
+    
+    .footer-content {
+        margin-bottom: 15px;
+    }
+    
+    .social-links {
+        gap: 12px;
+        font-size: 11px;
+    }
+    
+    .footer-bottom {
+        font-size: 11px;
+        padding-top: 12px;
+    }
+}
+
+@media (max-width: 360px) {
+    .navbar {
+        padding: 8px 10px;
+    }
+    
+    .logo {
         font-size: 14px;
+    }
+    
+    .nav-links {
+        gap: 6px;
+        font-size: 10px;
+    }
+    
+    .hero-right h1 {
+        font-size: 20px;
+    }
+    
+    .hero-description {
+        font-size: 11px;
+    }
+    
+    .card h3 {
+        font-size: 12px;
     }
 }
